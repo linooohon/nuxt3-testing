@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     app: {
        baseURL: '/testing/',
-       buildAssetsDir: '/buildtest/' // Exposed to the frontend as well.
+      //  buildAssetsDir: '/buildtest/' // Exposed to the frontend as well.
     },
   }
 })
