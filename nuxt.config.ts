@@ -7,5 +7,6 @@ export default defineNuxtConfig({
        baseURL: '/testing/',
       //  buildAssetsDir: '/buildtest/' // Exposed to the frontend as well.
     },
+    ssr: false
   }
 })
