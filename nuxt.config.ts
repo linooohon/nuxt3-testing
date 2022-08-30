@@ -4,7 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-       baseURL: '/testing/' // Exposed to the frontend as well.
-    }
+       baseURL: 'testing/' // Exposed to the frontend as well.
+    },
   }
 })
