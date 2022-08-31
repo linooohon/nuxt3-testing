@@ -13,7 +13,7 @@ const DEV = {
   // NODE_ENV: 'production'
   const PRO = {
     BASE_URL: '/root/',
-    CDN_URL: '/root/',
+    CDN_URL: '/',
   }
   
   module.exports = {
