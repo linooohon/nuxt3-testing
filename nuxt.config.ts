@@ -9,5 +9,8 @@ export default defineNuxtConfig({
       baseURL: ENV.BASE_URL,
       cdnURL: ENV.CDN_URL
     },
-  }
+  },
+  css: [
+    "~/assets/css/main.css"
+  ],
 })

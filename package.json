@@ -8,6 +8,8 @@
     "start": "nuxt start"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.8"
+    "nuxt": "3.0.0-rc.8",
+    "@nuxtjs/tailwindcss": "^5.3.1",
+    "tailwindcss": "^3.1.7"
   }
 }
