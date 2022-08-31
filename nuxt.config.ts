@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     app: {
        baseURL: '/testing/',
-       cdnURL: '/testing/'
+      //  cdnURL: '/testing/'
   //      buildAssetsDir: '/_nuxt/' // Exposed to the frontend as well.
     },
   //   // ssr: false
