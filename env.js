@@ -1,19 +1,19 @@
 // NODE_ENV: 'development'
 const DEV = {
-    BASE_URL: '/test/',
+    BASE_URL: '/root/',
     CDN_URL: '/',
   }
   
   // NODE_ENV: 'production'
   const STG = {
-    BASE_URL: '/test/',
-    CDN_URL: '/test/',
+    BASE_URL: '/root/',
+    CDN_URL: '/root/',
   }
   
   // NODE_ENV: 'production'
   const PRO = {
-    BASE_URL: '/test/',
-    CDN_URL: '/test/',
+    BASE_URL: '/root/',
+    CDN_URL: '/root/',
   }
   
   module.exports = {
