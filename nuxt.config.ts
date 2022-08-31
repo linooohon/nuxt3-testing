@@ -5,6 +5,7 @@ console.log(ENV)
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   runtimeConfig: {
+    target: 'static',
     app: {
       baseURL: ENV.BASE_URL,
       cdnURL: ENV.CDN_URL
